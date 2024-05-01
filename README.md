@@ -80,6 +80,16 @@ Show remote origin URL
 git remote -v
 ```
 
+Set the password of git through token 
+
+```sh
+git remote set-url origin https://<tocken>@<git remote -v url add here after https url>
+```
+like that way  
+```sh
+git remote set-url origin https://<tocken>@github.com/ayihandev/wanderlust.git
+```
+
 Add remote origin URL
 
 ```sh
